@@ -17,9 +17,6 @@ function Footer() {
           <h3>Developed By: MSM Robin</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <p>
-            <span className="purple">Feel free to connect with me...</span>
-          </p>
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -52,6 +49,10 @@ function Footer() {
               </a>
             </li>
           </ul>
+          <p className="text-light">
+            Feel free to connect with me. I am always open to discussing new
+            projects, creative ideas or opportunities to be part of your visions.
+          </p>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} robinNcode</h3>

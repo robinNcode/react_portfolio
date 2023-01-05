@@ -1,12 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/circle_avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillFacebook
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Introduction() {
   return (
@@ -17,82 +12,19 @@ function Introduction() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+            <ul itemType="square" className="home-about-body">
+              <li>I’m currently working as Professional Software Engineer @ADOVASOFT.</li>
+              <li>Excited to create open-source projects.</li>
+              <li>At present, learning <strong>Software Engineering</strong> and <strong>Fundamentals of Accounting</strong>.</li>
+              <li>Currently, a contributor of <strong>adovasoft-rnd/ci-recharge</strong>.</li>
+              <li>Learning from everyone &amp; everywhere.</li>
+              <li>You can reach me at <a href="mailto:msmrobin518@gmail.com">msmrobin518@gmail.com</a></li>
+            </ul>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/robinncode"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/robinncode/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a href="https://www.facebook.com/msmrobin" 
-                target="_blank" rel="noreferrer" 
-                className="icon-colour  home-social-icons">
-                  
-                  <AiFillFacebook />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>

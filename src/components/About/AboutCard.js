@@ -8,10 +8,6 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Peace be upon you, I am <span className="purple">MD Shahin Mia Robin. </span>
-            B.Sc. in CSE from Sonargaon University.
-            <br />
-            <br />
             <span className="purple Bio-style">সাধারণ, আত্মিক, অনুরাগী, ত্বরিত শিক্ষাগ্রহণকারী</span><br />
             <span className="purple Bio-style">Simple, Spritual, Passionate, Quick Learner</span>
             <br />

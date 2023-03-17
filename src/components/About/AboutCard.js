@@ -21,8 +21,8 @@ function AboutCard() {
           </p>
           
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Do you want to be even more successful? Learn how to love learning. 
+          <p>
+            "To be more successful, learn how to love learning. 
             The more effort you put into improving your skills, the more you will proceed toward your goals."{" "}
           </p>
           <footer className="blockquote-footer">MsM Robin</footer>

@@ -13,11 +13,11 @@ function Introduction() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <ul itemType="square" className="home-about-body">
-              <li>I’m currently working as Professional Software Engineer @ADOVASOFT.</li>
+              <li>I’m currently working as Professional Software Engineer <a href="http://adovasoft.com">Adova Soft</a></li>
+              <li>B.Sc in Computer Science and Engineering from <a href="https://su.edu.bd">Sonargaon University</a></li>
               <li>Excited to create open-source projects.</li>
-              <li>At present, learning <strong>Software Engineering</strong> and <strong>Fundamentals of Accounting</strong>.</li>
+              <li>At present, learning <strong>Advanced Accounting</strong>.</li>
               <li>Currently, a contributor of <strong>adovasoft-rnd/ci-recharge</strong>.</li>
-              <li>Learning from everyone &amp; everywhere.</li>
               <li>You can reach me at <a href="mailto:msmrobin518@gmail.com">msmrobin518@gmail.com</a></li>
             </ul>
           </Col>

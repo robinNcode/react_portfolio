@@ -4,6 +4,7 @@ import myImg from "../../Assets/circle_avatar_2.png";
 import Particle from "../Particle";
 import Introduction from "./Introduction";
 import Type from "./Type";
+import Tilt from "react-parallax-tilt";
 
 function Home() {
   return (
@@ -27,12 +28,9 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={myImg}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+              <Tilt>
+                <img src={myImg} alt="home pic" className="img-fluid" style={{ maxHeight: "450px" }} />
+              </Tilt>
             </Col>
           </Row>
         </Container>

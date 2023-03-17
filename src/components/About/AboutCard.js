@@ -22,9 +22,10 @@ function AboutCard() {
           
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Do you want to be even more successful? Learn how to love learning. 
+            The more effort you put into improving your skills, the more you will proceed toward your goals."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">MsM Robin</footer>
         </blockquote>
       </Card.Body>
     </Card>

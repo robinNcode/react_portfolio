@@ -8,25 +8,18 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Peace be upon you, I am <span className="purple">MD Shahin Mia Robin </span>
-            from <span className="purple"> Dhaka, Bangladesh.</span>
-            <br />
-            B.Sc in Computer Science and Engineering from <span className="purple">Sonargaon University</span>
+            Peace be upon you, I am <span className="purple">MD Shahin Mia Robin. </span>
+            B.Sc. in CSE from Sonargaon University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            <span className="purple Bio-style">সাধারণ, আত্মিক, অনুরাগী, ত্বরিত শিক্ষাগ্রহণকারী</span><br />
+            <span className="purple Bio-style">Simple, Spritual, Passionate, Quick Learner</span>
+            <br />
+            <br />
+
+            An enthusiastic Software Engineer, currently working at <span className="purple"> <a href="http://adovasoft.com/" target="_blank" rel="noreferrer">Adova Soft</a></span> since 2019.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}

@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/circle_avatar_2.png";
 import Particle from "../Particle";
-import Introduction from "./Introduction";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 
@@ -15,11 +14,10 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Assalamualaikum!
+                Peace be upon you!
               </h1>
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> MD Shahin Mia Robin</strong>
+                I am <strong className="main-name"> MD Shahin Mia Robin</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -35,7 +33,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Introduction />
     </section>
   );
 }

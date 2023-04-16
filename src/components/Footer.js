@@ -12,11 +12,7 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed By: Soumyajit Behera</h3>
-          <h3>Developed By: MSM Robin</h3>
-        </Col>
-        <Col md="4" className="footer-body">
+        <Col md="6" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -49,13 +45,9 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <p className="text-light">
-            Feel free to connect with me. I am always open to discussing new
-            projects, creative ideas or opportunities to be part of your visions.
-          </p>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} robinNcode</h3>
+        <Col md="6" className="footer-copywright">
+          <h3 className="text-right">Copyright © {year} robinNcode</h3>
         </Col>
       </Row>
     </Container>

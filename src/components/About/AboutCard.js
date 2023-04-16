@@ -8,16 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span className="purple Bio-style">সাধারণ, আত্মিক, অনুরাগী, ত্বরিত শিক্ষাগ্রহণকারী</span><br />
-            <span className="purple Bio-style">Simple, Spritual, Passionate, Quick Learner</span>
-            <br />
-            <br />
-
-            An enthusiastic Software Engineer, currently working at <span className="purple"> <a href="http://adovasoft.com/" target="_blank" rel="noreferrer">Adova Soft</a></span> since 2019.
+            সাধারণ, আত্মিক, অনুরাগী, ত্বরিত শিক্ষাগ্রহণকারী<br />
+            Simple, Spritual, Passionate, Quick Learner
           </p>
-          
-
-          <p>
+          <br/>
+          <p style={{ textAlign: 'justify' }}>
             "To be more successful, learn how to love learning. 
             The more effort you put into improving your skills, the more you will proceed toward your goals."{" "}
           </p>

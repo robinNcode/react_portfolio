@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import ptms from "../../Assets/Projects/ptms.png";
-import rentals from "../../Assets/Projects/rentals.png";
-import pcms from "../../Assets/Projects/pcms.png";
+import Particle from "../../components/Particle";
+import ptms from "../../assets/Projects/ptms.png";
+import rentals from "../../assets/Projects/rentals.png";
+import pcms from "../../assets/Projects/pcms.png";
 
 function Projects() {
   return (
@@ -47,7 +47,7 @@ function Projects() {
               title="PCMS"
               description="PCMS is a software solution designed to streamline and automate application process. It provides features such as application tracking, appointment scheduling, document management, fee collection, and reporting. It aims to reduce processing time for passport-related services."
               ghLink="https://github.com/robinNcode/pcms"
-              demoLink="http://pcms.robin.adovasoft.com"              
+              demoLink="http://pcms.robin.adovasoft.com"
             />
           </Col>
         </Row>

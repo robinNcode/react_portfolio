@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/circle_avatar_2.png";
-import Particle from "../Particle";
+import myImg from "../../assets/circle_avatar_2.png";
+import Particle from "../../components/Particle";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 

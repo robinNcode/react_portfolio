@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { SiQantas } from "react-icons/si";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -47,56 +48,59 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          
+
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> About
+              <Nav.Link style={{ marginTop: 4 }} as={Link} to="/" onClick={() => updateExpanded(false)}>
+                About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
+              <Nav.Link style={{ marginTop: 4 }}
+                as={Link} 
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+                Skills
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              <Nav.Link style={{ marginTop: 4 }}
                 as={Link}
                 to="/achievements"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Achievements
+                Achievements
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              <Nav.Link style={{ marginTop: 4 }}
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              <Nav.Link style={{ marginTop: 4 }}
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="https://msmrobin.hashnode.dev/" target="_blank" style={{ marginTop: 4 }}>
+                  Articles
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -107,4 +111,3 @@ function NavBar() {
 }
 
 export default NavBar;
-

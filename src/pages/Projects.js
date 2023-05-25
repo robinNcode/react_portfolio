@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../../components/Particle";
-import ptms from "../../assets/Projects/ptms.png";
-import rentals from "../../assets/Projects/rentals.png";
-import pcms from "../../assets/Projects/pcms.png";
+import ProjectCard from "../components/ProjectCards";
+import Particle from "../components/Particle";
+import ptms from "../assets/Projects/ptms.png";
+import rentals from "../assets/Projects/rentals.png";
+import pcms from "../assets/Projects/pcms.png";
 
 function Projects() {
   return (
@@ -18,7 +18,7 @@ function Projects() {
           Sharing my thoughts, ideas, experience, and imagination
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={10} className="project-card">
             <ProjectCard
               imgPath={ptms}
               isBlog={false}
@@ -28,8 +28,9 @@ function Projects() {
               demoLink="http://ptms.robin.adovasoft.com"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={10} className="project-card">
             <ProjectCard
               imgPath={rentals}
               isBlog={false}
@@ -39,8 +40,9 @@ function Projects() {
               demoLink="http://ohr.robin.adovasoft.com"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={10} className="project-card">
             <ProjectCard
               imgPath={pcms}
               isBlog={false}

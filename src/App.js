@@ -12,8 +12,8 @@ import ScrollToTop from "./components/ScrollToTop";
 // Pages import ...
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
-import Projects from "./pages/Projects/Projects";
-import Resume from "./pages/Resume/ResumeNew";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 import Achievements from "./pages/Achievements";
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

@@ -5,6 +5,10 @@ import Particle from "../../components/Particle";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 
+
+import Aboutcard from "../About/AboutCard";
+import laptopImg from "../../assets/about.png";
+
 function Home() {
   return (
     <section>
@@ -31,6 +35,20 @@ function Home() {
               </Tilt>
             </Col>
           </Row>
+
+          <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={12}
+            style={{
+              justifyContent: "center",
+              paddingBottom: "50px",
+              textAlign: "center",
+            }}
+          >
+
+            <Aboutcard />
+          </Col>
+        </Row>
         </Container>
       </Container>
     </section>

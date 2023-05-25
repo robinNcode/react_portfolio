@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Software Engineer <br/> Adova Soft.",
-          "Graduated with Bachelor of Science in Computer Science and Engineering from Sonargaon University."
+          "Graduated with B.Sc. in Computer Science and Engineering from SU"
         ],
         autoStart: true,
         loop: true,

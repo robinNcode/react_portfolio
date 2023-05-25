@@ -14,7 +14,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import Achievements from "./pages/Achievements";
+import Moments from "./pages/Moments";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -36,7 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
-          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/moments" element={<Moments />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />

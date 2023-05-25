@@ -60,7 +60,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link style={{ marginTop: 4 }}
-                as={Link} 
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
@@ -71,10 +71,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link style={{ marginTop: 4 }}
                 as={Link}
-                to="/achievements"
+                to="/moments"
                 onClick={() => updateExpanded(false)}
               >
-                Achievements
+                Moments
               </Nav.Link>
             </Nav.Item>
 
@@ -100,7 +100,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link href="https://msmrobin.hashnode.dev/" target="_blank" style={{ marginTop: 4 }}>
-                  Articles
+                Articles
               </Nav.Link>
             </Nav.Item>
           </Nav>

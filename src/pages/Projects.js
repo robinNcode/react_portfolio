@@ -18,7 +18,7 @@ function Projects() {
           Sharing my thoughts, ideas, experience, and imagination
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={10} className="project-card">
+          <Col md={12} className="project-card">
             <ProjectCard
               imgPath={ptms}
               isBlog={false}
@@ -30,7 +30,7 @@ function Projects() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={10} className="project-card">
+          <Col md={12} className="project-card">
             <ProjectCard
               imgPath={rentals}
               isBlog={false}
@@ -42,7 +42,7 @@ function Projects() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={10} className="project-card">
+          <Col md={12} className="project-card">
             <ProjectCard
               imgPath={pcms}
               isBlog={false}

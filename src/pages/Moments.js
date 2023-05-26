@@ -31,9 +31,9 @@ function Moments() {
                 />
 
                 {/* Moment 2 */}
-                <MomentCard imgPath={moment2} title="Explaining the Project: Presenting PTMS to the Esteemed Judges"
+                <MomentCard imgPath={moment2} title="Presenting Project Thesis Management System(PTMS) to the Honorable Judges"
                 para1="Judge Panel: Dr. Mustafa Akbor, Professor, BUET; Bulbul Ahmed, Head and Associate Professor, CSE, Sonargaon University; MD Naderuzzaman, Assistant Professor, CSE, Sonargaon University; MD Ashfaqur Rahman, Lecturer, CSE, Sonargaon University"
-                para2="I am delighted to announce that my esteemed colleague, Sajib Adhikary, and I were honored as the 2nd Runner-up in the highly competitive project showcase during SU CSE Day-23. This prestigious title is a testament to our unwavering dedication, tireless efforts, and groundbreaking innovation in the field of computer science and engineering. Receiving these distinguished awards was a moment of exultation and profound gratitude, further validating our commitment to excellence and the invaluable support and guidance provided by Sonargaon University, a renowned institution dedicated to academic distinction."
+                para2="With great anticipation, our team had the honor of presenting our cutting-edge project, the Project Thesis Management System (PTMS), to a distinguished panel of judges. PTMS was designed to revolutionize the way project theses are managed, providing an innovative platform that streamlines processes, enhances collaboration, and maximizes efficiency. Months of tireless effort and meticulous planning culminated in this pivotal moment, as we showcased the immense potential of PTMS in transforming the landscape of project thesis management."
                 />
 
                 {/* Moment 3 */}
@@ -43,7 +43,10 @@ function Moments() {
                 />
 
                 {/* Moment 4 */}
-                <MomentCard imgPath={moment4} title="" />
+                <MomentCard imgPath={moment4} title="Unveiling Innovation: Journey Through South Asia's Largest Software Expo-23" 
+                para1="In a remarkable display of technological prowess, the South Asia's Largest Software Expo-23 unfolded its grandeur, attracting industry leaders, tech enthusiasts, and visionaries from across the globe. Held in a sprawling convention center, the event showcased cutting-edge software solutions, groundbreaking inventions, and revolutionary advancements in the digital landscape. From AI-powered systems to immersive virtual reality experiences, the expo left attendees awestruck by the limitless possibilities of technology."
+                para2="The expo served as a vibrant hub for networking, collaboration, and knowledge exchange, with renowned keynote speakers sharing their insights on the future of software development and its impact on various industries. Exhibitors from multinational corporations to innovative startups proudly presented their latest products and services, igniting inspiration and fostering partnerships among attendees. As I navigated through the bustling exhibition halls, I couldn't help but marvel at the sheer scale of innovation on display, leaving me motivated to explore new frontiers in software development and contribute to the ever-evolving digital landscape."
+                />
             </Container>
         </Container>
     );

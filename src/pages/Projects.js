@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCards";
 import Particle from "../components/Particle";
-import ptms from "../assets/Projects/ptms.png";
-import rentals from "../assets/Projects/rentals.png";
-import pcms from "../assets/Projects/pcms.png";
+import ptms from "../assets/projects/ptms.png";
+import rentals from "../assets/projects/rentals.png";
+import pcms from "../assets/projects/pcms.png";
 
 function Projects() {
   return (

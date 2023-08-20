@@ -3,13 +3,12 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 //import myImg from "../../assets/circle_avatar_2.png";
 import Particle from "../../components/Particle";
 
-import myImg from "../../assets/formal_village.jpg";
+import myImg from "../../assets/img/formal_village.jpg";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 
 
 import Aboutcard from "../About/AboutCard";
-import laptopImg from "../../assets/about.png";
 
 function Home() {
   return (

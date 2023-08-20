@@ -15,4 +15,18 @@ This project was built using these technologies.
 - VsCode
 
 ## Change
-You can change all the codes as per your need...
+You can change all the codes as per your need..
+
+## How to deploy on github pages
+- First you need to install gh-pages package in your react app
+- Then you need to add homepage in your package.json file
+- Then you need to add some scripts in your package.json file
+- Then you need to build your portfoilo by running:
+```
+npm run build
+```
+- To deploy your portfolio on github pages you need to run:
+```
+npm run build deploy
+```
+- Then you need to go to your github repository settings and change source to gh-pages branch

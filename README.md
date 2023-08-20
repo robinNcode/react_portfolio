@@ -18,15 +18,28 @@ This project was built using these technologies.
 You can change all the codes as per your need..
 
 ## How to deploy on github pages
-- First you need to install gh-pages package in your react app
-- Then you need to add homepage in your package.json file
-- Then you need to add some scripts in your package.json file
+- First you need to install gh-pages package in your react app. To install run this command:
+```
+npm install gh-pages --save-dev
+```
+- Then you need to add homepage in your package.json file as below:
+```
+"homepage": "http://yourusername.github.io/repository-name",
+```
+- Then you need to add some scripts in your package.json file as below:
+```
+"scripts": {
+//...
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
+```
 - Then you need to build your portfoilo by running:
 ```
 npm run build
 ```
 - To deploy your portfolio on github pages you need to run:
 ```
-npm run build deploy
+npm run deploy
 ```
 - Then you need to go to your github repository settings and change source to gh-pages branch

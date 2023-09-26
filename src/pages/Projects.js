@@ -25,7 +25,7 @@ function Projects() {
               title="PTMS"
               description='The Project Thesis Management System is a cloud-based solution that helps manage academic projects and theses. It provides a central platform for students and faculty to collaborate, communicate, and track the progress of their projects and theses. Awarded "2nd Runner Up" in SU CSE DAY-2023.'
               ghLink="https://github.com/robinNcode/ptms"
-              demoLink="http://ptms.robin.adovasoft.com"
+              demoLink="https://robin.adovasoft.com/ptms"
             />
           </Col>
         </Row>
@@ -36,8 +36,8 @@ function Projects() {
               isBlog={false}
               title="Rentals"
               description="Rentals is a software application that allows property owners to manage and rent out their properties. It provides features such as property listings, tenant management, rent collection, maintenance requests, and financial reporting. Additionally, it offers automated communication."
-              ghLink="https://github.com/robinNcode/rent_me"
-              demoLink="http://ohr.robin.adovasoft.com"
+              ghLink="https://github.com/robinNcode/rentals"
+              demoLink="https://robin.adovasoft.com/rentals"
             />
           </Col>
         </Row>
@@ -49,7 +49,7 @@ function Projects() {
               title="PCMS"
               description="PCMS is a software solution designed to streamline and automate application process. It provides features such as application tracking, appointment scheduling, document management, fee collection, and reporting. It aims to reduce processing time for passport-related services."
               ghLink="https://github.com/robinNcode/pcms"
-              demoLink="http://pcms.robin.adovasoft.com"
+              demoLink="https://robin.adovasoft.com/pcms"
             />
           </Col>
         </Row>
